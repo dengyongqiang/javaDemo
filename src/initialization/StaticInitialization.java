@@ -56,5 +56,4 @@ public class StaticInitialization {
 
 	static Table table = new Table();
 	static Cupboard cupboard = new Cupboard();
-
 }
