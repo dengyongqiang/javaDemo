@@ -9,18 +9,18 @@ class Art {
 
 }
 
-class Drawing extends Art {
-	Drawing() {
+class Drawing extends Art{
+	Drawing(){
 		print("Drawing constructor");
 	}
 }
 
 public class Cartoon extends Drawing {
 
-	public Cartoon() {
+	public Cartoon(){
 		print("Cartoon constructor");
 	}
-
+	
 	public static void main(String[] args) {
 		Cartoon x = new Cartoon();
 	}
